@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>baseProject</title>
+<link href="style.css" rel="stylesheet"></head>
+<body>
+    <header class="header header_wide header_style header_wide_768 header_wide_1440 header_style_1440">
+        <nav class="header__navbar navbar navbar navbar_flex navbar_flex_1440">
+                 <div class="navbar__left-side navbar__left-side_style navbar__left-side_flex navbar__left-side_flex_768 navbar__left-side_hidden_1440">
+                     <button class="navbar__button navbar__button_wide navbar__button_style" type="button"><img class="navbar__button-img" src="img/burger.svg" alt="Бургер"></button>
+                     <div class="navbar__logo navbar__logo_wide navbar__logo_wide_768 navbar__logo_style_768"><img class="navbar__logo-img navbar__logo-img_style" src="img/Logo.svg" alt="Логотип"> </div>
+                 </div>
+                 <div class="navbar__right-side navbar__right-side_wide navbar__right-side_style navbar__right-side_flex navbar__right-side_style_768 navbar__right-side_flex_768">
+                     <ul class="navbar__contact-list contact-list contact-list_style contact-list_flex contact-list_hidden contact-list_flex_768 contact-list_hidden_1440">
+                         <li class="contact-list__item">
+                             <a class="contact-list__link contact-list__link-call" href="#">
+                                 <div class="contact-list__image contact-list__image_wide contact-list__image_style"><img src="img/call.svg" alt="Контактный елефон"></div>
+                             </a>
+                         </li>
+                         <li class="contact-list__item">
+                             <a class="contact-list__link contact-list__link-message" href="#">
+                                 <div class="contact-list__image contact-list__image_wide contact-list__image_style"><img src="img/message.svg" alt="Мессенджер"></div>
+                             </a>
+                         </li>
+                         <li class="contact-list__item">
+                             <a class="contact-list__link" href="#">
+                                 <div class="contact-list__image contact-list__image_wide contact-list__image_style"><img src="img/human.svg" alt="Логин"></div>
+                             </a>
+                         </li>
+                     </ul>
+     
+                     <ul class="navbar__contact-list contact-list contact-list_style contact-list_flex contact-list_flex_768 contact-list_flex_1440">
+ 
+                         <li class="contact-list__item">
+                             <a class="contact-list__link contack-list__link_style contact-list__link_flex contact-list__link_flex_1440 contact-list__link_style_1440" href="#">
+                                 <p class="contact-list__check contact-list__check_wide contact-list__check_style contact-list__check_hidden contact-list__check_hidden_1440 contact-list__check_style_1440">Оставить заявку</p>
+                                 <div class="contact-list__image contact-list__image_wide contact-list__image_style"><img src="img/repare.svg" alt="Оставить заявку"></div>
+                             </a>
+                         </li>
+ 
+                         <li class="contact-list__item">
+                             <a class="contact-list__link contack-list__link_style contact-list__link_flex contact-list__link_flex_1440 contact-list__link_style_1440" href="#">
+                                 <p class="contact-list__check contact-list__check_wide contact-list__check_style contact-list__check_hidden contact-list__check_hidden_1440 contact-list__check_style_1440">Статус ремонта</p>
+                                 <div class="contact-list__image contact-list__image_wide contact-list__image_style"><img src="img/search.svg" alt="Статус ремонта"></div>
+                             </a>
+                         </li>
+
+                     </ul>
+                 </div>
+        </nav> 
+     </header>
+
+    <main class="page">
+        
+        <div class="disign-container_1440">
+            <!-- Первый блок -->
+            <section class="catalog catalog_wide catalog_wide_1440">
+                <h1 class="catalog__title catalog__title_wide catalog__title_style catalog__title_wide_768 catalog__title_wide_1440 catalog__title_style_1440">Услуги и сервисы</h1>
+                <ul class="catalog__list catalog__list_wide catalog__list_style catalog__list_flex catalog__list_wide_768 catalog__list_wide_1440 catalog__list_style_1440">
+                    <li tabindex="1" autofocus class="catalog__item catalog__item_wide catalog__item_style catalog__item_focus">Ремонтируемые бренды</li>  
+                    <li tabindex="2" class="catalog__item catalog__item_wide catalog__item_style catalog__item_focus">Дополнительные услуги</li> 
+                    <li tabindex="3" class="catalog__item catalog__item_wide catalog__item_style catalog__item_focus">Цены на услуги</li> 
+                    <li tabindex="4" class="catalog__item catalog__item_wide catalog__item_style catalog__item_focus">Адреса сервисных центров</li> 
+                    <li tabindex="5" class="catalog__item catalog__item_wide catalog__item_style catalog__item_focus">Специальные цены</li> 
+                </ul>
+            </section>
+
+            <section class="about-us about-us_flex about-us_wide_768 about-us_flex_768 about-us_wide_1440">
+                <div class="about-us__description about-us__description_wide about-us__description_flex about-us__description_flex_768 about-us__description_wide_768">
+                    <h2 class="about-us__reviews-title about-us__reviews-title_wide about-us__reviews-title_style about-us__reviews-title_hidden about-us__reviews-title_hidden_1440 about-us__reviews-title_wide_1440 about-us__reviews-title_style_1440">Отзывы</h2>
+                    <p class="about-us__info about-us__info_wide about-us__info_style about-us__info_wide_768 about-us__info about-us__info_wide_1440">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                    <p class="about-us__info about-us__info_wide about-us__info_style about-us__info_hidden about-us__info_wide_768 about-us__info_wide_1440 about-us__info_hidden_1440">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям.</p>
+                    
+                    <button class="about-us__link-button about-us__link-button_wide about-us__link-button_style about-us__link-button_show" type="button"><img src="img/arrow.svg" alt="Показать">Читать далее</button>
+                    <button class="about-us__link-button about-us__link-button_wide about-us__link-button_style about-us__link-button_hide about-us__link-button_hidden" type="button"><img class="about-us__link-button-img" src="img/arrow.svg" alt="Скрыть">Скрыть</button>
+
+                </div>
+                <div class="about-us__promo"><img class="about-us__promo-image about-us__promo-image_wide about-us__promo-image_wide_768 about-us__promo-image_wide_1440" src="img/promo.jpg" alt="Промо фотография"></div>
+            </section> 
+
+            <!-- Второй блок -->
+            <section class="swiper-block swiper-block_wide_1440">
+                <h2 class="swiper-block__menu-title swiper-block__menu-title_style swiper-block__menu-title_wide swiper-block__menu-title_wide_768 swiper-block__menu-title_wide_1440">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h2>
+                    <div class="swiper slider-1">
+                        <div class="swiper-wrapper swiper-wrapper_wide swiper-wrapper_wide_768 swiper-wrapper_grid_768 swiper-wrapper_wide_1440 swiper-wrapper_grid_1440">
+
+                            <div class="swiper-slide">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/lenovo.svg" alt="Леново">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/samsung.svg" alt="Самсунг">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/apple.svg" alt="Эпл">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/viewSonic.svg" alt="ВьюСоник">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/bosh.svg" alt="Бош">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/hp.svg" alt="ЭйчПи">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper swiper-slide_swiper-close swiper-slide_swiper-close_1440">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/acer.svg" alt="Эйсер">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper swiper-slide_swiper-close swiper-slide_swiper-close_1440">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/sony.svg" alt="Сони">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper swiper-slide_swiper-close">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/lenovo.svg" alt="Леново">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper swiper-slide_swiper-close">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/samsung.svg" alt="Самсунг">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper swiper-slide_swiper-close">
+                                <div class="custom-container custom-container_wide">
+                                    <div class="swiper-slide-item swiper-slide-item_wide swiper-slide-item_style swiper-slide-item_flex swiper-slide-item_wide_768 swiper-slide-item_wide_1440">
+                                        <img src="img/apple.svg" alt="Эпл">
+                                        <a class="swiper-slide-item-link" href="#">
+                                            <img class="swiper-slide-item-img swiper-slide-item-img_wide swiper-slide-item-img_style" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <button class="swiper-block__button swiper-block__button_wide swiper-block__button_style swiper-block__button_flex swiper-block__button_hidden swiper-block__button_swiper-show swiper-block__button_wide_768 swiper-block__button_wide_1440" type="button"><img class="swiper-block__button-img" src="img/arrow.svg" alt="Показать"><span class="swiper-block__button-text swiper-block__button-text_wide">Показать все</span></button>
+                    <button class="swiper-block__button swiper-block__button_wide swiper-block__button_style swiper-block__button_flex swiper-block__button_hidden swiper-block__button_swiper-hide swiper-block__button_swiper-close swiper-block__button_wide_768 swiper-block__button_wide_1440" type="button"><img class="swiper-block__button-img swiper-block__button-img_style" src="img/arrow.svg" alt="Скрыть"><span class="swiper-block__button-text swiper-block__button-text_wide">Скрыть</span></button>
+            </section> 
+
+            <section class="swiper-block2 swiper-block2_wide_1440">
+                <h2 class="swiper-block2__menu-title2 swiper-block2__menu-title2_style swiper-block2__menu-title2_wide swiper-block2__menu-title2_wide_768 swiper-block2__menu-title2_wide_1440">РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ</h2>
+                    <div class="swiper slider-2">
+                        <div class="swiper-wrapper swiper-wrapper2_wide swiper-wrapper2_wide_768 swiper-wrapper2_grid_768 swiper-wrapper2_wide_1440 swiper-wrapper2_grid_1440">
+
+                            <div class="swiper-slide">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ НОУТБУКОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ ПЛАНШЕТОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ ПК</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide swiper-slide2_swiper-close swiper-slide2_swiper-close_1440">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ МОНИТОРОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper2 swiper-slide2_swiper-close">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ НОУТБУКОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper2 swiper-slide2_swiper-close">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ ПЛАНШЕТОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper2 swiper-slide2_swiper-close">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ ПК</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper2 swiper-slide2_swiper-close">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ МОНИТОРОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper2 swiper-slide2_swiper-close">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ НОУТБУКОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper2 swiper-slide2_swiper-close">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ ПЛАНШЕТОВ</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="swiper-slide wieSwiper2 swiper-slide2_swiper-close">
+                                <div class="custom-container2 custom-container2_wide">
+                                    <div class="swiper-slide-item2 swiper-slide-item2_wide swiper-slide-item2_style swiper-slide-item2_flex swiper-slide-item2_wide_768 swiper-slide-item2_wide_1440">
+                                        <div class="swiper-slide-item-text2">РЕМОНТ ПК</div>
+                                        <a class="swiper-slide-item-link2" href="#">
+                                            <img class="swiper-slide-item-img2 swiper-slide-item-img2_wide swiper-slide-item-img2_style swiper-slide-item-img2_wide_768" src="img/arrowright.svg" alt="выбрать">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <button class="swiper-block2__button2 swiper-block2__button2_wide swiper-block2__button2_style swiper-block2__button2_flex swiper-block2__button2_hidden swiper-block2__button2_swiper-show" type="button"><img class="swiper-block2__button-img2" src="img/arrow.svg" alt="Показать"><span class="swiper-block2__button-text2 swiper-block2__button-text2_wide">Показать все</span></button>
+                    <button class="swiper-block2__button2 swiper-block2__button2_wide swiper-block2__button2_style swiper-block2__button2_flex swiper-block2__button2_hidden swiper-block2__button2_swiper-hide swiper-block2__button2_swiper-close" type="button"><img class="swiper-block2__button-img2 swiper-block2__button-img2_style" src="img/arrow.svg" alt="Скрыть"><span class="swiper-block2__button-text2 swiper-block2__button-text2_wide">Скрыть</span></button>
+            </section> 
+
+            <section class="swiper-block3 swiper-block3_wide_1440">
+                <h2 class="swiper-block3__menu-title3 swiper-block3__menu-title3_style swiper-block3__menu-title3_wide swiper-block3__menu-title3_wide_768 swiper-block3__menu-title3_wide_1440">ЦЕНЫ НА УСЛУГИ</h2>
+                <div class="swiper-block3__container-title3 swiper-block3__container-title3_wide_768 swiper-block3__container-title3_flex_768 swiper-block3__container-title3_wide_1440 swiper-block3__container-title3_flex_1440">
+                    <title class="swiper-block3__title-item3 swiper-block3__title-item3_wide_768 swiper-block3__title-item3_style_768 swiper-block3__title-item3_wide_1440 swiper-block3__title-item3_style_1440">Ремонтные услуги</title>
+                    <title class="swiper-block3__title-item3 swiper-block3__title-item3_wide_768 swiper-block3__title-item3_style_768 swiper-block3__title-item3_wide_1440 swiper-block3__title-item3_style_1440">Цена</title>
+                    <title class="swiper-block3__title-item3 swiper-block3__title-item3_wide_768 swiper-block3__title-item3_style_768 swiper-block3__title-item3_wide_1440 swiper-block3__title-item3_style_1440">Срок</title>
+                </div>    
+                    <div class="swiper slider-3">
+                        <div class="swiper-wrapper swiper-wrapper3_wide swiper-wrapper3_wide_768 swiper-wrapper3_grid_768 swiper-wrapper3_wide_1440 swiper-wrapper3_grid_1440">
+
+                            <div class="swiper-slide">
+                                <div class="custom-container3 custom-container3_wide">
+                                    <div class="swiper-slide-item3 swiper-slide-item3_wide swiper-slide-item3_style swiper-slide-item3_flex swiper-slide-item3_wide_768 swiper-slide-item3_flex_768 swiper-slide-item3_wide_1440 swiper-slide-item3_flex_1440">
+                                        
+                                        <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                            <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Ремонтные услуги</title>
+                                            <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">Диагностика</p>
+                                        </div>
+                                        <div class="swiper-slide__disign-flex swiper-slide__disign-flex_flex_320 swiper-slide__disign-flex_flex_768 swiper-slide__disign-flex_flex_1440">
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                                <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Цена</title>
+                                                <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">Бесплатно</p>
+                                            </div>
+
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column swiper-slide__container-text3_flex swiper-slide__container-text3_flex_768 swiper-slide__container-text3_flex_1440">
+                                                <div class="swiper-slide__containerin-text3 swiper-slide__containerin-text3_flex">
+                                                    <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Срок</title>
+                                                    <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">30-120 мин</p>
+                                                </div>
+                                                <button class="swiper-block3__button3 swiper-block3__button3_wide swiper-block3__button3_style swiper-block3__button3_flex" type="button"><span class="swiper-block3__button-text3 swiper-block3__button-text3_wide">ЗАКАЗАТЬ</span><img class="swiper-block3__button-img3" src="img/dropdown.svg" alt="Заказать"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="custom-container3 custom-container3_wide">
+                                    <div class="swiper-slide-item3 swiper-slide-item3_wide swiper-slide-item3_style swiper-slide-item3_flex swiper-slide-item3_wide_768 swiper-slide-item3_flex_768 swiper-slide-item3_wide_1440">
+                                        
+                                        <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                            <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Ремонтные услуги</title>
+                                            <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">Замена дисплея</p>
+                                        </div>
+                                        <div class="swiper-slide__disign-flex swiper-slide__disign-flex_flex_320 swiper-slide__disign-flex_flex_768 swiper-slide__disign-flex_flex_1440">
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                                <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Цена</title>
+                                                <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">1000р</p>
+                                            </div>
+
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column swiper-slide__container-text3_flex swiper-slide__container-text3_flex_768 swiper-slide__container-text3_flex_1440">
+                                                <div class="swiper-slide__containerin-text3 swiper-slide__containerin-text3_flex">
+                                                    <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Срок</title>
+                                                    <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">30-120 мин</p>
+                                                </div>
+                                                <button class="swiper-block3__button3 swiper-block3__button3_wide swiper-block3__button3_style swiper-block3__button3_flex" type="button"><span class="swiper-block3__button-text3 swiper-block3__button-text3_wide">ЗАКАЗАТЬ</span><img class="swiper-block3__button-img3" src="img/dropdown.svg" alt="Заказать"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="custom-container3 custom-container3_wide">
+                                    <div class="swiper-slide-item3 swiper-slide-item3_wide swiper-slide-item3_style swiper-slide-item3_flex swiper-slide-item3_wide_768 swiper-slide-item3_flex_768 swiper-slide-item3_wide_1440">
+                                        
+                                        <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                            <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Ремонтные услуги</title>
+                                            <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">Замена полифонического динамика</p>
+                                        </div>
+                                        <div class="swiper-slide__disign-flex swiper-slide__disign-flex_flex_320 swiper-slide__disign-flex_flex_768 swiper-slide__disign-flex_flex_1440">
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                                <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Цена</title>
+                                                <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">1000р</p>
+                                            </div>
+
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column swiper-slide__container-text3_flex swiper-slide__container-text3_flex_768 swiper-slide__container-text3_flex_1440">
+                                                <div class="swiper-slide__containerin-text3 swiper-slide__containerin-text3_flex">
+                                                    <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Срок</title>
+                                                    <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">30-120 мин</p>
+                                                </div>
+                                                <button class="swiper-block3__button3 swiper-block3__button3_wide swiper-block3__button3_style swiper-block3__button3_flex" type="button"><span class="swiper-block3__button-text3 swiper-block3__button-text3_wide">ЗАКАЗАТЬ</span><img class="swiper-block3__button-img3" src="img/dropdown.svg" alt="Заказать"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="custom-container3 custom-container3_wide">
+                                    <div class="swiper-slide-item3 swiper-slide-item3_wide swiper-slide-item3_style swiper-slide-item3_flex swiper-slide-item3_wide_768 swiper-slide-item3_flex_768 swiper-slide-item3_wide_1440">
+                                        
+                                        <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                            <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Ремонтные услуги</title>
+                                            <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">Тестирование с выдачей технического заключения</p>
+                                        </div>
+                                        <div class="swiper-slide__disign-flex swiper-slide__disign-flex_flex_320 swiper-slide__disign-flex_flex_768 swiper-slide__disign-flex_flex_1440">
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                                <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Цена</title>
+                                                <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">1000р</p>
+                                            </div>
+
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column swiper-slide__container-text3_flex swiper-slide__container-text3_flex_768 swiper-slide__container-text3_flex_1440">
+                                                <div class="swiper-slide__containerin-text3 swiper-slide__containerin-text3_flex">
+                                                    <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Срок</title>
+                                                    <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">30-120 мин</p>
+                                                </div>
+                                                <button class="swiper-block3__button3 swiper-block3__button3_wide swiper-block3__button3_style swiper-block3__button3_flex" type="button"><span class="swiper-block3__button-text3 swiper-block3__button-text3_wide">ЗАКАЗАТЬ</span><img class="swiper-block3__button-img3" src="img/dropdown.svg" alt="Заказать"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="custom-container3 custom-container3_wide">
+                                    <div class="swiper-slide-item3 swiper-slide-item3_wide swiper-slide-item3_style swiper-slide-item3_flex swiper-slide-item3_wide_768 swiper-slide-item3_flex_768 swiper-slide-item3_wide_1440">
+                                        
+                                        <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                            <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Ремонтные услуги</title>
+                                            <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">Замена программного обеспечения</p>
+                                        </div>
+                                        <div class="swiper-slide__disign-flex swiper-slide__disign-flex_flex_320 swiper-slide__disign-flex_flex_768 swiper-slide__disign-flex_flex_1440">
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column">
+                                                <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Цена</title>
+                                                <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">1000р</p>
+                                            </div>
+
+                                            <div class="swiper-slide__container-text3 swiper-slide__container-text3_flex-column swiper-slide__container-text3_flex swiper-slide__container-text3_flex_768 swiper-slide__container-text3_flex_1440">
+                                                <div class="swiper-slide__containerin-text3 swiper-slide__containerin-text3_flex">
+                                                    <title class="swiper-slide__text-title3 swiper-slide__text-title3_style swiper-slide__text-title3_wide swiper-slide__text-title3_hidden_768">Срок</title>
+                                                    <p class="swiper-slide__text-paragraph3 swiper-slide__text-paragraph3_wide swiper-slide__text-paragraph3_style">30-120 мин</p>
+                                                </div>
+                                                <button class="swiper-block3__button3 swiper-block3__button3_wide swiper-block3__button3_style swiper-block3__button3_flex" type="button"><span class="swiper-block3__button-text3 swiper-block3__button-text3_wide">ЗАКАЗАТЬ</span><img class="swiper-block3__button-img3" src="img/dropdown.svg" alt="Заказать"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+            </section> 
+
+            <!-- Третий блок -->
+            <section class="offer offer_wide offer_wide_768">
+                <p class="offer__about offer__about_wide offer__about_style offer__about_wide_768">
+                    Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+                </p>
+                <div class="offer__container offer__container_wide offer__container_wide_768">
+                    <div class="offer__container-link">
+                        <a class="offer__link offer__link_style" href="#">
+                            <p class="offer__about-link offer__about-link_wide">
+                                Получить коммерческое предложение
+                            </p>
+                            <img class="offer__link-img offer__link-img_wide offer__link-img_wide_768" src="img/arrowright.svg" alt="выбрать">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+
+        <!-- Блок меню -->
+        <div class="overlay"></div>
+        <section class="menu menu_wide menu_wide_320 menu_style menu_style_768 menu_wide_360 menu_style_360 menu_wide_768 menu_wide_1440 menu_style_1440">
+            <header class="menu-header">
+                <nav class="menu-header__nav menu-header__nav_wide menu-header__nav_wide_360 menu-header__nav_wide_768 menu-header__nav_wide_1440">
+                    <ul class="menu-header__nav-list main-header__nav-list_wide menu-header__nav-list_style menu-header__nav-list_flex menu-header__nav-list_flex_360">
+                        <li class="menu-header__nav-item menu-header__nav-item_hidden_1440"><div class="menu-header__container-input menu-header__container-input_wide menu-header__container-input_style menu-header__container-input-close"><input class="menu-header__input-close" type="image" src="img/cross.svg" alt="close"></div></li>
+                        <li class="menu-header__nav-item"><img class="menu-header__image-logo menu-header__image-logo_wide menu-header__image-logo_style menu-header__image-logo_wide_360 menu-header__image-logo_wide_1440" src="img/Logo.svg" alt="Логотип"></li>
+                        <li class="menu-header__nav-item"><div class="menu-header__container-input menu-header__container-input_wide menu-header__container-input_style"><input class="menu-header__input-search" type="image" src="img/lupa.svg" alt="search"></div></li>
+                    </ul>     
+                </nav>
+            </header>
+            <section class="menu-main">
+                <nav class="menu-main__nav menu-main__nav_wide menu-main__nav_wide_360 menu-main__nav_wide_768 menu-main__nav_wide_1440">
+                    <ul class="menu-main__nav-list menu-main__nav-list_wide menu-main__nav-list_style menu-main__nav-list_flex menu-main__nav-list_flex_360 menu-main__nav-list_flex_768 menu-main__nav-list_flex_1440">
+                        <li class="menu-main__nav-item menu-main__nav-item_wide"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-link_focus menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#"></a>Ремонт техники</li>
+                        <li class="menu-main__nav-item menu-main__nav-item_wide menu-main__nav-item_active"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-item-link_active menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#">Услуги и сервисы</a></li>
+                        <li class="menu-main__nav-item menu-main__nav-item_wide"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-link_focus menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#">Корпоративным клиентам</a></li>
+                        <li class="menu-main__nav-item menu-main__nav-item_wide"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-link_focus menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#">Продавцам техники</a></li>
+                        <li class="menu-main__nav-item menu-main__nav-item_wide"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-link_focus menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#">Партнерам</a></li>
+                        <li class="menu-main__nav-item menu-main__nav-item_wide"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-link_focus menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#">Производителям</a></li>
+                        <li class="menu-main__nav-item menu-main__nav-item_wide"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-link_focus menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#">Наши сервисные центры</a></li>
+                        <li class="menu-main__nav-item menu-main__nav-item_wide"><a class="menu-main__nav-item-link menu-main__nav-item-link_wide menu-main__nav-item-link_style menu-main__nav-link_focus menu-main__nav-item-link_wide_360 menu-main__nav-item-link_wide_768 menu-main__nav-item-link_wide_1440" href="#">Контакты</a></li>
+                    </ul>   
+                </nav>
+            </section>
+            <footer class="menu-footer menu-footer_wide">
+                <nav class="menu-footer__nav">
+                    <ul class="menu-footer__nav-list menu-footer__nav-list_wide menu-footer__nav-list_style menu-footer__nav-list_flex menu-footer__nav-list_wide_360 menu-footer__nav-list_wide_768 menu-footer__nav-list_wide_1440">
+                        <li class="menu-footer__nav-item"><div class="menu-footer__container-input menu-footer__container-input_wide menu-footer__container-input_style menu-footer__container-input_call"><input class="menu-footer__input-call" type="image" src="img/call.svg" alt="call"></div></li>
+                        <li class="menu-footer__nav-item"><div class="menu-footer__container-input menu-footer__container-input_wide menu-footer__container-input_style menu-footer__container-input_close"><input class="menu-footer__input-message" type="image" src="img/message.svg" alt="message"></div></li>
+                        <li class="menu-footer__nav-item"><div class="menu-footer__container-input menu-footer__container-input_wide menu-footer__container-input_style menu-footer__container-input_human"><input class="menu-footer__input-human" type="image" src="img/human.svg" alt="human"></div></li>
+                    </ul>
+                    <address class="menu-footer__addres-list menu-footer__addres-list_wide menu-footer__addres-list_wide_360 menu-footer__addres-list_wide_768 menu-footer__addres-list_wide_1440">
+                        <p class="menu-footer__email menu-footer__email_wide menu-footer__email_wide_360 menu-footer__email_wide_768 menu-footer__email_wide_1440"><a class="menu-footer__addres-list-link" href="mailto:mail@cps.com">mail@cps.com</a></p>
+                        <p class="menu-footer__number menu-footer__number_wide menu-footer__number_style menu-footer__number_wide_360 menu-footer__number_wide_768 menu-footer__number_wide_1440"><a class="menu-footer__addres-list-link menu-footer__addres-list-link_style" href="tel: 88008908900">8 800 890 8900</a></p>
+                    </address>
+                </nav>
+                <ul class="menu-footer__lang-list menu-footer__lang-list_wide menu-footer__lang-list_style menu-footer__lang-list_flex menu-footer__lang-list_wide_360 menu-footer__lang-list_wide_768 menu-footer__lang-list_wide_1440">
+                    <li class="menu-footer__lang-item"><input class="menu-footer__lang-item-button menu-footer__lang-item-button_style main-footer__lang-item-button_cursor menu-footer__lang-item-button_active" type="button" value="RU"></li>
+                    <li class="menu-footer__lang-item"><input class="menu-footer__lang-item-button menu-footer__lang-item-button_style menu-footer__lang-item-button_cursor" type="button" value="EN"></li>
+                    <li class="menu-footer__lang-item"><input class="menu-footer__lang-item-button menu-footer__lang-item-button_style menu-footer__lang-item-button_cursor" type="button" value="CH"></li>
+                </ul>
+            </footer>
+        </section>
+
+        <!-- Блок обратная связь -->
+        <section class="feedback feedback_wide feedback_style ignore-focus-control feedback_wide_768 feedback_style_768 feedback_wide_1440 feedback_style_1440">
+            <header class="feedback-header">
+                <div class="feedback-header__container-input feedback-header__container-input_wide feedback-header__container-input_style feedback-header__container-input-close feedback-header__container-input_wide_1440"><input class="feedback-header__input-close" type="image" src="img/cross.svg" alt="close"></div>
+                <h2 class="feedback-header__title feedback-header__title_wide feedback-header__title_style feedback-header__title_wide_1440">Обратная связь</h2>
+            </header>
+            <div class="feedback-main feedback-main_wide_1440">
+
+                <form id="feedback-form" action="#" method="POST">
+
+                    <input class="feedback-main__form-name feedback-main__form-name_wide feedback-main__form-name_style feedback-main__form-name_wide_1440" type="text" id="username" name="username" placeholder="Имя" required autocomplete="given-name"><br>
+                
+                    <input class="feedback-main__form-tel feedback-main__form-tel_wide feedback-main__form-tel_style feedback-main__form-tel_wide_1440" type="tel" id="phone" name="phone" placeholder="Телефон" required autocomplete="tel"><br>
+                
+                    <input class="feedback-main__form-email feedback-main__form-email_wide feedback-main__form-email_style feedback-main__form-email_wide_1440" type="email" id="email" name="email" placeholder="Электронная почта" required autocomplete="email"><br>
+        
+                    <textarea class="feedback-main__form-message feedback-main__form-message_wide feedback-main__form-message_style feedback-main__form-message_wide_1440" id="message" name="message" rows="6" cols="30" placeholder="Сообщение"></textarea><br>
+    
+                </form>
+            </div>
+            <footer class="feedback-footer feedback-footer_wide feedback-footer_wide_1440">
+                <p class="feedback-footer__text feedback-footer__text_wide feedback-footer__text_style">Нажимая “отправить”, вы даете согласие на <a class="feedback-footer__link" href="#">обработку персональных данных</a> и соглашаетесь с нашей <a class="feedback-footer__link" href="#">политикой конфиденциальности</a></p>
+                <button class="feedback-footer__button feedback-footer__button_wide feedback-footer__button_style feedback-footer__button_flex" form="feedback-form" type="submit"><span class="feedback-footer__button-text feedback-footer__button-text_wide">Отправить</span><img class="feedback-footer__button-img" src="img/dropdown.svg" alt="Отправить"></button>
+            </footer>
+        </section>
+
+        <!-- Блок Заказать звонок -->
+        <section class="call call_wide call_style ignore-focus-control call_wide_768 call_style_768 call_wide_1440 call_style_1440">
+            <header class="call-header">
+                <div class="call-header__container-input call-header__container-input_wide call-header__container-input_style call-header__container-input-close call-header__container-input_wide_1440"><input class="call-header__input-close" type="image" src="img/cross.svg" alt="close"></div>
+                <h2 class="call-header__title call-header__title_wide call-header__title_style call-header__title_wide_1440">Зкаказать звонок</h2>
+            </header>
+            <div class="call-main call-main_wide_1440">
+        
+                <form id="call-form" action="#" method="POST">
+                    <input class="call-main__form-tel call-main__form-tel_wide call-main__form-tel_style call-main__form-tel_wide_1440" type="tel" id="phoneCall" name="phone" placeholder="Телефон" required autocomplete="tel"><br>    
+                </form>
+            </div>
+            <footer class="call-footer call-footer_wide call-footer_wide_1440">
+                <p class="call-footer__text call-footer__text_wide call-footer__text_style">Нажимая “отправить”, вы даете согласие на <a class="call-footer__link" href="#">обработку персональных данных</a> и соглашаетесь с нашей <a class="call-footer__link" href="#">политикой конфиденциальности</a></p>
+                <button class="call-footer__button call-footer__button_wide call-footer__button_style call-footer__button_flex" form="call-form" type="submit"><span class="call-footer__button-text call-footer__button-text_wide">Отправить</span><img class="call-footer__button-img" src="img/dropdown.svg" alt="Отправить"></button>
+            </footer>
+        </section>
+    </main>
+
+    <footer class="footer footer_width_1440">
+        <div class="footer__container-polity footer__container-polity_wide footer__container-polity_style footer__container-polity_flex footer__container-polity_wide_768 footer__container-polity_flex_768 footer__container-polity_wide_1440 footer__container-polity_flex_1440">
+            <div class="footer__develop footer__develop_wide_768 footer__develop_style_768 footer__develop_wide_1440 footer__develop_style_1440">
+                <a class="footer__link footer__link_style" href="#">
+                    <p class="footer__develop-item footer__develop-item_wide">
+                        © 2019 CPS
+                    </p>
+                </a>
+                <a class="footer__link footer__link_style" href="#">
+                    <p class="footer__develop-item footer__develop-item_wide">
+                        Разработано командой Apesong 
+                    </p>
+                </a>
+            </div>
+            <a class="footer__link footer__link_style" href="#">
+                <p class="footer__politic footer__politic_wide footer__politic_wide_768 footer__politic_wide_1440">
+                    Политика конфиденциальности
+                </p>
+            </a>
+            <a class="footer__link footer__link_style" href="#">
+                <p class="footer__notpublic footer__notpublic_wide footer__notpublic_wide_768 footer__notpublic_style_768 footer__notpublic_wide_1440 footer__notpublic_style_1440">
+                    Информация, размещенная на данной странице, не является публичной офертой 
+                </p>
+            </a>
+        </div>
+    </footer>
+<script defer="defer" src="bundle.js"></script></body>
+</html>
