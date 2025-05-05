@@ -1,0 +1,48 @@
+@use 'variables';
+
+.footer {
+    &__container-polity {
+        &_wide {
+            margin-top: 57px;
+            margin-bottom: 19px;
+            padding-top: 16px;
+            border-top: 1px solid #{variables.$border-line2};
+        }
+        &_style {
+            font-family: "TT Lakes-Regular";
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: #{variables.$footer-text};
+        }
+        &_flex {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+    &__develop-item {
+        &_wide {
+            margin: 0;
+        }
+    }
+    &__politic {
+        &_wide {
+            margin: 0;
+        }
+    } 
+    &__notpublic {
+        &_wide {
+            margin: 0;
+        }
+    } 
+    &__link {
+        &_style {
+            list-style: none;
+            text-decoration: none;
+            color: #{variables.$footer-text};
+        }
+    }
+}

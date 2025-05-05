@@ -1,0 +1,150 @@
+
+@use 'variables';
+
+.header {
+    &_wide {
+        box-sizing: border-box;
+        padding: 18.59px 16px;
+        margin-bottom: 24px;
+    }
+    &_style {
+        background-color: #{variables.$color-wt};
+        border-bottom: 1px solid #{variables.$border-line2};
+    }
+    .navbar {
+        &_flex {
+            display: flex;
+            gap:16.73px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__button {
+            &_wide {
+                box-sizing: border-box;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: none;
+                padding:12px 11px;
+                padding: 0;
+            }
+            &_style {
+                background-color: #{variables.$button-bg};
+                transition: background-color 0.9s, opacity 0.9s, transform 0.9s;
+            }
+            &_hidden {
+                display: none;
+            }
+            
+        }
+        &__button:hover {
+            opacity: 0.5;
+            transform: scale(1.2);
+            background-color: #{variables.$hover-color};
+        }
+        &__logo {
+            &_wide {
+                width:96.55px;
+                height: 50.81px;
+            }
+        }
+        &__logo-img {
+            &_style{
+                filter: sepia(0%);
+                transition-duration: 1s;
+            }
+            &:hover {
+                filter: sepia(50%);
+            }
+        }
+        &__left-side {
+            &_style {
+                align-items: center;
+            }
+            
+            &_flex {
+                display: flex;
+                gap:16.73px;
+            }
+        }
+
+        &__right-side {
+            &_wide {
+                box-sizing: border-box;
+                padding-left:20px;
+            }
+            &_style {
+                align-items: center;
+                border-left:2px solid #{variables.$border};
+                border-radius:1px;
+            }
+
+            &_flex {
+                display: flex;
+            }
+
+        }
+
+        .contact-list {
+            &_style {
+                align-items: center;
+            }
+            
+            &_flex {
+                display: flex;
+                gap: 16px;
+            }
+            &_hidden {
+                display: none;
+            }
+
+
+            &__item {
+                transition: opacity 2s  transform 2s;
+            }
+
+            &__link {
+                align-items: center;
+                gap: 9px;
+
+                &_flex {
+                    display: flex;
+                } 
+                &_style {
+                    text-decoration: none;
+                }
+            }
+            &__check {
+                &_wide {
+                    margin:0; 
+                }
+                &_style {
+                    color: #{variables.$main-color};
+                }
+                &_hidden {
+                    display: none;
+                }
+            }
+            &__image {
+                &_wide {
+                    box-sizing: border-box;
+                    width:40px;
+                    height:40px;
+                    padding:10px 10px;
+                    border-radius:50%; 
+                }
+                &_style {
+                    background-color: #{variables.$button-bg};  
+                    transition: background-color 0.9s, opacity 0.9s, transform 0.9s;
+                }
+            }    
+            &__image:hover {
+                opacity: 0.5;
+                transform: scale(1.2);
+                background-color: #{variables.$hover-color};
+            }
+
+        }
+    }
+}

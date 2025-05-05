@@ -1,0 +1,281 @@
+@use 'variables';
+
+.menu {
+    &_wide {
+        z-index: 997;
+        margin:0; 
+        margin-right: auto;
+        width:320px;
+        opacity: 1;
+        height: 113%;
+    }
+    &_hidden {
+        transform: translateX(320px);
+    }
+    
+    &_style {
+        font-family: "TT Lakes-Medium";
+        color: #{variables.$main-color};
+        background-color: #{variables.$wt-color};
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        box-shadow: 16px 0px 52px 0px #{variables.$box-shadow1},
+                    -2px 0px 4px 0px #{variables.$box-shadow1};
+    }
+    .menu-header {
+        &__nav {
+            &_wide {
+                padding: 18.73px 16px 26.27px 16px ; 
+            }  
+        }
+        &__nav-list {
+            &_wide {
+                margin:0;
+                padding:0;
+            }
+            &_style {
+                list-style: none;
+            }
+            &_flex {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 16.73px;
+            }
+        }
+        &__image-logo {
+            &_wide {
+                width:97px;
+                height: 51px;
+            }
+            &_style{
+                transform: translate(-30px);
+                filter: sepia(0%);
+                transition-duration: 2s;
+            }
+        }
+        &__image-logo:hover {
+            filter: sepia(50%);
+        }
+
+        &__container-input {
+            &_wide {
+                box-sizing: border-box;
+                padding:12px;
+                width: 40px;
+                height: 40px;
+            }
+            &_style {
+                background-color:#{variables.$button-bg};
+                border-radius:50%;
+                opacity:1;
+                transition: background-color 1s, opacity 1.5s, transform 1.5s;
+            }
+            &_close {
+                padding:12px 12px 12px 11px;
+            }
+        }
+
+        &__container-input:hover {
+            background-color: #{variables.$menu-bg-hover};
+            opacity:0.5;
+            transform: scale(1.2);
+        }
+
+        &__input-search {
+            transition-duration: 1s;
+        }
+
+        &__input-search:hover {
+            filter: invert(90%);
+        }
+        &__input-close {
+            transition: transform 1.5s;
+        }
+        &__input-close:hover {
+            transform: rotate(365deg);
+        }
+    } 
+
+    
+    .menu-main {
+        &__nav {
+            &_wide {
+                margin-bottom: 32px;
+            }
+        }
+        &__nav-list {
+            &_wide {
+                margin:0;
+                padding:0;
+            }
+            &_style {
+                list-style: none;
+            }
+            &_flex {
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+            }
+        }
+        &__nav-item {
+            &_wide {
+                transition:  transform 1s;
+            }
+            &_active {
+                outline: none;
+                border-left: 4px solid #{variables.$border-line};
+                box-sizing: border-box;
+            }
+        }
+        &__nav-item:hover {
+            opacity: 0.5;
+            transform: translate(32px) scale(1.2);
+            transition: opacity 1s  transform 1s;
+        }
+        &__nav-item-link {
+            &_wide {
+                display: inline-block;
+                height:24px;
+                padding-left:16px;
+            }
+            &_style {
+                line-height:24px;
+                color: #{variables.$main-color};
+                text-decoration: none;
+            }
+            &_active {
+                color: #{variables.$secondary-color};
+            }
+        }
+    }
+    .menu-footer {
+        &_wide {
+            padding-bottom: 32px;
+        }
+        &__nav-list {
+            &_wide {
+                margin:0;
+                padding:0;
+                padding-left:16px;
+                margin-bottom:16px;
+            }
+            &_style {
+                list-style: none;
+            }
+            &_flex {
+                display: flex;
+                gap:16px;
+            }
+        }
+        &__container-input {
+            &_wide {
+                box-sizing: border-box;
+                padding:11px 11px;
+                width: 40px;
+                height: 40px;  
+            }
+            &_style {
+                background-color:#{variables.$button-bg};
+                border-radius:50%;
+                opacity:1;
+                transition: background-color 1s, opacity 1.5s, transform 1.5s;
+            }
+            &_human {
+                padding:10px 11px 11px 10px;
+            }
+        }
+        &__container-input:hover {
+            background-color: #{variables.$bg-hover};
+            opacity:0.5;
+            transform: scale(1.2);
+        }
+        &__addres-list {
+            &_wide {
+                margin-bottom: 8px;
+            }
+        }
+        &__email {
+            &_wide {
+                margin-bottom:12px;
+                margin-top:0;
+                margin-left:16px;
+            }
+        }
+        &__number {
+            &_wide {
+                margin-top:0;
+                margin-bottom:0;
+                margin-left:16px;
+            }
+            &_style {
+                font-family: "TT Lakes-Bold";
+                font-weight: 700;
+            }
+        }
+        &__addres-list-link {
+            color: #{variables.$main-color};
+            text-decoration: none;
+        }
+        &__lang-list {
+            &_wide {
+                margin:0;
+                padding:0;
+                margin-left: 16px;
+            }
+            &_style {
+                list-style: none;
+            }
+            &_flex {
+                display: flex;
+                gap: 7px;
+            }
+        }
+        &__lang-item-button {
+            &_style {
+                background-color: #{variables.$wt-color};
+                border: none;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.2px;
+                padding:0;
+                font-weight: 500;
+            }
+            &_cursor {
+                cursor: pointer;
+            }
+            &_active {
+                color: #{variables.$secondary-color};
+            }
+        }
+        &__input-call:hover {
+            animation-name: call-bell;
+            animation-duration: 0.5s;
+            animation-iteration-count:infinite;
+        }
+        @keyframes call-bell {
+            0% {
+                transform: rotate(-10deg);
+            }
+            50% {
+                transform: rotate(10deg);
+            }
+            100% {
+                transform: rotate(-10deg);
+            }
+        }
+        &__input-message:hover {
+            filter: invert(90%);
+            transition-duration: 1s;
+        }
+        &__input-human {
+            transition-duration: 1s;
+        }
+        &__input-human:hover {
+            filter: invert(90%);
+        }
+    }
+    
+}

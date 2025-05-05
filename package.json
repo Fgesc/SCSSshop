@@ -1,0 +1,66 @@
+{
+  "name": "baseproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "web",
+    "scss",
+    "html",
+    "javascript",
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "watch": "webpack --mode development --watch"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "not OperaMini All",
+    "not dead"
+  ],
+  "engineStrict": true,
+  "engines": {
+    "node": "~v22.14.0",
+    "npm": "~10.9.2"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/plugin-transform-modules-amd": "^7.25.9",
+    "@babel/plugin-transform-runtime": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.87.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "dependencies": {
+    "swiper": "^11.2.6"
+  }
+}

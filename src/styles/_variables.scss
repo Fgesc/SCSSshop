@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'TT Lakes-Bold';
+    src: url('../assets/fonts/TTLakes-Bold.eot');
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+        url('../assets/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/TTLakes-Bold.woff') format('woff'),
+        url('../assets/fonts/TTLakes-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes-Medium';
+    src: url('../assets/fonts/TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url('../assets/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/TTLakes-Medium.woff') format('woff'),
+        url('../assets/fonts/TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes-Regular';
+    src: url('../assets/fonts/TTLakes-Regular.eot');
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+        url('../assets/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/TTLakes-Regular.woff') format('woff'),
+        url('../assets/fonts/TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$button-bg: rgba(255, 62, 121, 1);
+$feedback-link: rgba(255, 62, 121, 1);
+$hover-color: green;
+$color-wt: rgba(255, 255, 255, 1);
+$pagination: rgba(221, 221, 221, 1);
+$pagination-active: rgba(181, 182, 188, 1);
+$feedback-input: rgba(181, 182, 188, 1);
+$footer-text: rgba(126, 126, 130, 1);
+$secondary-color: rgba(126, 126, 130, 1);
+$main-color: rgba(27, 28, 33, 1);
+$bg-color:rgba(248, 248, 248, 1);
+$border-focus: rgba(184, 255, 236, 1);
+$border-line: rgba(65, 246, 215, 1);
+$border-line2:rgba(217, 255, 245, 1);
+$border: rgba(234, 234, 234, 1);
+$right-opacity1: rgba(248, 248, 248, 1);
+$right-opacity2: rgba(248, 248, 248, 0);
+$box-shadow1: rgba(14, 24, 80, 0.2);
+$box-shadow2: rgba(69, 79, 126, 0.02);
+$menu-bg-hover: rgba(93, 149, 60, 0.497);
+$bg-hover: rgb(87, 165, 42);
+$wt-color: rgba(255, 255, 255, 1);
+$before1: rgba(248, 248, 248, 1);
+$before2: rgba(248, 248, 248, 0.0001); 

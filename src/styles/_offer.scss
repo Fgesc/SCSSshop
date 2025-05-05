@@ -1,0 +1,53 @@
+@use 'variables';
+
+.offer {
+    &_wide {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    &__about {
+        &_wide {
+            width: 288px;
+            height: 137.45px;
+            margin: 0;
+        }
+        &_style {
+            font-family: "TT Lakes-Regular";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+        }
+    }
+    &__container {
+        &_wide {
+            width: 192px;
+            position: relative;
+        }
+    }
+    &__link {
+        &_style {
+            list-style: none;
+            text-decoration: none;
+            font-family: "TT Lakes-Medium";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            color: #{variables.$main-color};
+        }
+    }
+    &__about-link {
+        &_wide {
+            margin: 0;
+        }
+    }
+    &__link-img {
+        &_wide {
+            position: absolute;
+            top: 31px;
+            left: 110px;
+        }
+    }
+}
+    

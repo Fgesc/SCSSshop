@@ -1,0 +1,164 @@
+@use 'variables';
+
+.call {
+    &_wide {
+        position: absolute;
+        z-index: 999;
+        margin:0; 
+        margin-left: auto;
+        width:320px;
+        padding-top: 24px;
+        padding-bottom: 75px;
+        pointer-events: none;
+    }
+
+    &_style {
+        font-family: "TT Lakes-Medium";
+        color: #{variables.$secondary-color};
+        background-color: #{variables.$wt-color};
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        box-shadow: none;
+    }
+    .call-header {
+            &__container-input {
+                &_wide {
+                    box-sizing: border-box;
+                    padding:12px;
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 16px;
+                }
+                &_style {
+                    background-color:#{variables.$button-bg};
+                    border-radius:50%;
+                    opacity:1;
+                    transition: background-color 1s, opacity 1.5s, transform 1.5s;
+                }
+                &_close {
+                    padding:12px 12px 12px 11px;
+                }
+                &:hover {
+                    background-color: #{variables.$menu-bg-hover};
+                    opacity:0.5;
+                    transform: scale(1.2);
+                }
+            }
+            &__input-close {
+                transition: transform 1.5s;
+            }
+            &__input-close:hover {
+                transform: rotate(365deg);
+            }
+            &__title {
+                &_wide {
+                    margin:0;
+                    padding-left: 12px;
+                    border-left: 4px solid #{variables.$border-line};
+                    margin-bottom: 24px;
+                    margin-top: 40px;
+                }
+                &_style {
+                    font-family: "TT Lakes-Medium";
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    letter-spacing: -0.6px;
+                    color: #{variables.$main-color};
+                    text-transform: none;
+                }
+
+            }
+    }
+    .call-main {
+        &__form-tel {
+            &_wide {
+                box-sizing: border-box;
+                margin-left: 16px;
+                margin-right: 16px; 
+                margin-bottom: 16px;
+                padding: 0;
+                padding-left: 16px;
+                width: 288px;
+                height: 48px;
+                border: 1px solid #{variables.$border};
+                border-radius: 8px;
+            }
+            &_style {
+                text-align: start;
+
+            }
+            &::placeholder {
+                color: #{variables.$feedback-input};
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.2px;
+            }
+        }
+    }
+    .call-footer {
+        &_wide {
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+        &__text {
+            &_wide {
+                margin: 0;
+                margin-bottom: 19px;
+            }
+            &_style {
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0px;
+            }
+        }
+        &__link {
+            color: #{variables.$feedback-link};
+        }
+        &__button {
+            &_wide {
+                margin:0;
+                padding:0;
+                width: 136px;
+                height: 32px;
+                margin-left: auto;
+            }
+            &_style {
+                font-family: "TT Lakes-Bold";
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 24px;
+                letter-spacing: -0.15px;
+                text-align: right;
+                text-transform: uppercase;
+                color: #{variables.$color-wt};
+                background-color: #{variables.$button-bg};
+                border: 1px solid #{variables.$button-bg};
+                border-radius: 16px;
+                transform: scale(1);
+                opacity: 1;
+                transition: transform 1s, opacity 1s, background-color 1s ;
+    
+            }
+            &_flex {
+                display: flex;
+                align-items: center;
+            }
+            &:hover {
+                background: linear-gradient(to right top, #{variables.$bg-hover}, #{variables.$hover-color});
+                border: #{variables.$button-bg};
+                opacity: 0.9;
+                transform: scale(1.1);
+            }
+        }
+        &__button-text {
+            &_wide {
+                padding-right: 16px;
+                padding-left: 12px;
+            }
+        }
+    }
+}
