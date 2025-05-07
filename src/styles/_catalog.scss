@@ -80,23 +80,6 @@
             margin-bottom: 16px;
         }
     }
-    &__reviews-title {
-        &_wide {
-            width:71px;
-            height:24px;
-            margin:0;
-            padding:0;  
-        }
-        &_style {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            color:#{variables.$secondary-color};
-        }
-        &_hidden {
-            display: none;
-        }
-    }
     &__info {
         &_wide {
             margin:0;

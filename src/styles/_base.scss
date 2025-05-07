@@ -75,3 +75,7 @@ ul {
     opacity: 1;
     z-index: 996;
 }
+
+* [tabindex] { 
+    cursor: pointer;
+}

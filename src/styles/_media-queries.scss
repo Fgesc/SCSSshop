@@ -98,7 +98,7 @@
             }
         }
         &__list::before {
-            height: 33px;
+            height: 55px;
             left:745px;
         }
     }
@@ -529,6 +529,10 @@
                     padding-left: 34px;
                     margin-left: 0;
                 }
+                &_flex_1440 {
+                    flex-wrap: wrap;
+                    row-gap: 10px;
+                }
             }
             &__list::before {
                 display: none;
@@ -538,23 +542,7 @@
             &_wide_1440 {
                 margin-left: 34px;
                 margin-right: 28px;
-            }
-            &__reviews-title {
-                &_hidden_1440 {
-                    display: block;
-                }
-                &_style_1440{
-                    font-family: "TT Lakes-Medium";
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 24px;
-                    letter-spacing: -0.2px;
-                    text-transform: none;
-
-                }
-                &_wide_1440 {
-                    margin-left: 18px;
-                }
+                margin-top: 44px;
             }
             &__info {
                 &_wide_1440 {
