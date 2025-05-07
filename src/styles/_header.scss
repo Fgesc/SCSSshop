@@ -139,8 +139,7 @@
                     transition: background-color 0.9s, opacity 0.9s, transform 0.9s;
                 }
                 &_style-padding {
-                    padding-left: 11.5px;
-                    padding-right: 11.5px;
+                    padding: 10px 11.5px;
                 }
             }    
             &__image:hover {
